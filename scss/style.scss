@@ -1,0 +1,126 @@
+@import "nullstyle.scss";
+
+.top {
+    &__container {
+        margin: 0 auto;
+        padding-top: 165px;
+    }
+    &__logo {
+        margin: 0 auto;
+    }
+    &__slogan {
+    }
+    &__read-more {
+    }
+    &__icon {
+    }
+}
+
+.top {
+    background-image: url("/img/top/top__bg.png");
+}
+.top__container {
+    //border: 1px solid green;
+    max-width: 972px;
+
+    .top__logo {
+        width: 192px;
+        height: 123px;
+    }
+}
+.logo {
+}
+.top__slogan {
+}
+.top__read-more {
+}
+.read-more {
+}
+.top__icon {
+}
+.about {
+}
+.about__container {
+}
+.about__menu {
+}
+.menu {
+}
+.about__header {
+}
+.about__title {
+}
+.title {
+}
+.about__text {
+}
+.about__row {
+}
+.about__column {
+}
+.item-about {
+}
+.item-about__icon {
+}
+.item-about__title {
+}
+.item-about__text {
+}
+.portfolio {
+}
+.portfolio__container {
+}
+.portfolio__header {
+}
+.portfolio__title {
+}
+.portfolio__menue {
+}
+.menue {
+}
+.portfolio__works {
+}
+.portfolio__read-more {
+}
+.partners {
+}
+.partners__container {
+}
+.partners__title {
+}
+.partners__firms {
+}
+.firm {
+}
+.firm__logo {
+}
+.contact {
+}
+.contact__container {
+}
+.contact__header {
+}
+.contact__title {
+}
+.contact__infomation {
+}
+.contact__form {
+}
+.contact__data {
+}
+.contact__text {
+}
+.contact__icons {
+}
+.contact__email {
+}
+.footer {
+}
+.footer__container {
+}
+.footer__logo {
+}
+.footer__menue {
+}
+.footer__copyrights {
+}
