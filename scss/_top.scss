@@ -1,0 +1,56 @@
+.top {
+    background-image: url("/img/top/top__bg.png");
+}
+.top__container {
+    max-width: 972px;
+
+    .top__logo {
+        width: 192px;
+        height: 123px;
+    }
+
+    .top__slogan {
+        position: relative;
+        width: 750px;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        font-size: 26px;
+        line-height: 40px;
+        letter-spacing: 0.16em;
+        color: #ffffff;
+        span {
+            font-size: 26px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            bottom: 0px;
+            left: 43%;
+            min-width: 105px;
+            border: 1px solid #ffffff;
+        }
+    }
+    .top__read-more {
+        border: 1px solid #ffffff;
+        width: 162px;
+        height: 47px;
+        display: flex;
+        .read-more__text {
+            font-family: "Lato", sans-serif;
+            font-size: 16px;
+            line-height: 1.2;
+            letter-spacing: 0.06em;
+            color: #ffffff;
+            margin: auto;
+        }
+    }
+    .top__icon {
+        border: 1px solid green;
+        width: 17px;
+        height: 10px;
+    }
+}

@@ -1,4 +1,6 @@
 @import "nullstyle.scss";
+@import "top.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .top {
     &__container {
@@ -9,35 +11,17 @@
         margin: 0 auto;
     }
     &__slogan {
+        margin: 160px auto 50px auto;
+        padding-bottom: 278px;
     }
     &__read-more {
+        margin: 0 auto 75px auto;
     }
     &__icon {
+        margin: 0 auto;
     }
 }
 
-.top {
-    background-image: url("/img/top/top__bg.png");
-}
-.top__container {
-    //border: 1px solid green;
-    max-width: 972px;
-
-    .top__logo {
-        width: 192px;
-        height: 123px;
-    }
-}
-.logo {
-}
-.top__slogan {
-}
-.top__read-more {
-}
-.read-more {
-}
-.top__icon {
-}
 .about {
 }
 .about__container {

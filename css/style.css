@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -73,15 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.top__container {
-  margin: 0 auto;
-  padding-top: 165px;
-}
-
-.top__logo {
-  margin: 0 auto;
-}
-
 .top {
   background-image: url("/img/top/top__bg.png");
 }
@@ -93,4 +85,77 @@ h1, h2, h3, h4, h5, h6 {
 .top__container .top__logo {
   width: 192px;
   height: 123px;
+}
+
+.top__container .top__slogan {
+  position: relative;
+  width: 750px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+}
+
+.top__container .top__slogan span {
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.top__container .top__slogan::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 43%;
+  min-width: 105px;
+  border: 1px solid #ffffff;
+}
+
+.top__container .top__read-more {
+  border: 1px solid #ffffff;
+  width: 162px;
+  height: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top__container .top__read-more .read-more__text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin: auto;
+}
+
+.top__container .top__icon {
+  border: 1px solid green;
+  width: 17px;
+  height: 10px;
+}
+
+.top__container {
+  margin: 0 auto;
+  padding-top: 165px;
+}
+
+.top__logo {
+  margin: 0 auto;
+}
+
+.top__slogan {
+  margin: 160px auto 50px auto;
+  padding-bottom: 278px;
+}
+
+.top__read-more {
+  margin: 0 auto 75px auto;
+}
+
+.top__icon {
+  margin: 0 auto;
 }
