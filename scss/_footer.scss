@@ -1,0 +1,29 @@
+.footer__container {
+    background-color: #3c3c3c;
+    .footer__logo {
+        width: 122px;
+        height: 78px;
+    }
+    .footer__menu {
+        width: 260px;
+        .footer__menu-elements {
+            display: flex;
+            justify-content: space-between;
+            .footer__menue-element {
+                font-family: "Lato", sans-serif;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 400;
+                color: #a4a4a4;
+            }
+        }
+    }
+    .footer__copyrights {
+        width: 170px;
+        font-family: "Myriad Pro";
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #6c6c6c;
+    }
+}

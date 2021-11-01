@@ -1,8 +1,0 @@
-<ul class="portfolio-works">
-                    <li class="portfolio-work"><img src="/img/portfolio/porfolio__work-joda.jpg" alt="joda"></li>
-                    <li class="portfolio-work"><img src="/img/portfolio/porfolio__work-kenobi.jpg" alt="kenobi"></li>
-                    <li class="portfolio-work"><img src="/img/portfolio/porfolio__work-lea.jpg" alt="lea"></li>
-                    <li class="portfolio-work"><img src="/img/portfolio/porfolio__work-luk.jpg" alt="luk"></li>
-                    <li class="portfolio-work"><img src="/img/portfolio/porfolio__work-solo.jpg" alt="solo"></li>
-                    <li class="portfolio-work"><img src="/img/portfolio/porfolio__work-veider.jpg" alt="veider"></li>
-                </ul>

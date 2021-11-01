@@ -431,6 +431,45 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
 }
 
+.footer__container {
+  background-color: #3c3c3c;
+}
+
+.footer__container .footer__logo {
+  width: 122px;
+  height: 78px;
+}
+
+.footer__container .footer__menu {
+  width: 260px;
+}
+
+.footer__container .footer__menu .footer__menu-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container .footer__menu .footer__menu-elements .footer__menue-element {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #a4a4a4;
+}
+
+.footer__container .footer__copyrights {
+  width: 170px;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
 .top__container {
   margin: 0 auto;
   padding-top: 165px;
@@ -544,4 +583,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact__icons {
   margin: 20px 0 8px 0;
+}
+
+.footer__container {
+  padding: 48px 0 49px 0;
+}
+
+.footer__logo {
+  margin: 0 auto 41px auto;
+}
+
+.footer__menu {
+  margin: 0 auto 34px auto;
+}
+
+.footer__copyrights {
+  margin: 0 auto;
 }

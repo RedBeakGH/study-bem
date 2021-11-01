@@ -7,6 +7,7 @@
 @import "portfolio";
 @import "partners";
 @import "contact";
+@import "footer";
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .top {
@@ -113,12 +114,16 @@
 }
 
 .footer {
-}
-.footer__container {
-}
-.footer__logo {
-}
-.footer__menue {
-}
-.footer__copyrights {
+    &__container {
+        padding: 48px 0 49px 0;
+    }
+    &__logo {
+        margin: 0 auto 41px auto;
+    }
+    &__menu {
+        margin: 0 auto 34px auto;
+    }
+    &__copyrights {
+        margin: 0 auto;
+    }
 }
