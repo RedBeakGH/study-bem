@@ -3,6 +3,10 @@
 @import "title.scss";
 @import "menu.scss";
 @import "about.scss";
+@import "read-more";
+@import "portfolio";
+@import "partners";
+@import "contact";
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .top {
@@ -47,65 +51,67 @@
     }
 }
 
-.about__menu {
-}
-
-.about__header {
-}
-.about__title {
-}
-
-.item-about {
-}
-
 .portfolio {
+    &__container {
+        margin: 95px auto 0 auto;
+        padding-bottom: 62px;
+    }
+    &__header {
+        padding: 107px 0 0 0;
+        margin: 0 auto;
+    }
+    &__title {
+        margin: 0 auto 0 auto;
+    }
+    &__menu {
+        margin: 0 auto 136px auto;
+    }
+    &__works {
+        margin-bottom: 64px;
+    }
+    &__read-more {
+        margin: 0 auto;
+    }
 }
-.portfolio__container {
-}
-.portfolio__header {
-}
-.portfolio__title {
-}
-.portfolio__menue {
-}
-.menue {
-}
-.portfolio__works {
-}
-.portfolio__read-more {
-}
+
 .partners {
+    &__container {
+        margin: 0 auto 0 auto;
+        padding-bottom: 104px;
+    }
+    &__title {
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    &__firms {
+        margin: 93px 0 0 0;
+    }
 }
-.partners__container {
-}
-.partners__title {
-}
-.partners__firms {
-}
-.firm {
-}
-.firm__logo {
-}
+
 .contact {
+    &__title {
+        margin: 183px auto 166px auto;
+    }
+    &__infomation {
+        margin: 0 auto 0 auto;
+    }
+    &__input-text {
+        margin: 0 0 20px 0;
+    }
+    &__input {
+        margin: 0 0 75px 0;
+    }
+    &__submit {
+        margin: 42px 0 0 89%;
+    }
+    &__text {
+        margin: 0 0 15px 0;
+    }
+    &__icons {
+        margin: 20px 0 8px 0;
+    }
 }
-.contact__container {
-}
-.contact__header {
-}
-.contact__title {
-}
-.contact__infomation {
-}
-.contact__form {
-}
-.contact__data {
-}
-.contact__text {
-}
-.contact__icons {
-}
-.contact__email {
-}
+
 .footer {
 }
 .footer__container {

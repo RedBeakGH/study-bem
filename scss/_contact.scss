@@ -1,0 +1,70 @@
+.contact__container {
+    padding-bottom: 102px;
+    .contact__infomation {
+        display: flex;
+        column-gap: 83px;
+        width: 899px;
+        .contact__form-container {
+            width: 393px;
+            .contact__input {
+                display: flex;
+                justify-content: space-between;
+                &-name,
+                &-email {
+                    border-top: 1px solid black;
+                    width: 161px;
+                    height: 35px;
+                    background-color: #f8f7f7;
+                }
+                &-text {
+                    font-family: "Lato", sans-serif;
+                    font-size: 14px;
+                    line-height: 1.2;
+                    font-weight: 700;
+                    letter-spacing: 0.06em;
+                    color: #000000;
+                }
+            }
+            .contact__message-field {
+                border-top: 1px solid black;
+                width: 100%;
+                min-height: 118px;
+                background-color: #f8f7f7;
+            }
+            .contact__submit-btn {
+                font-family: "Lato", sans-serif;
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 700;
+                letter-spacing: 0.06em;
+                color: #000000;
+            }
+        }
+        .contact__data {
+            width: 252px;
+            font-family: "Lato", sans-serif;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #000000;
+            .contact__author,
+            .contact__email span {
+                font-weight: 700;
+            }
+            .contact__icons {
+                display: flex;
+                justify-content: start;
+                column-gap: 12px;
+                .contact__icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 29px;
+                    height: 29px;
+                    border: 2px solid black;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+}

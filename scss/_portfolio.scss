@@ -1,0 +1,22 @@
+.portfolio {
+    background-color: #f3f3f3;
+    &__container {
+        width: 1103px;
+    }
+    &__works {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 16px;
+    }
+    &__work {
+        width: 538px;
+        display: block;
+    }
+    .read-more {
+        border: 1px solid black;
+        .read-more__text {
+            color: #000000;
+        }
+    }
+}
