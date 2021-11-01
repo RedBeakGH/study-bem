@@ -1,5 +1,6 @@
 .top {
     background-image: url("/img/top/top__bg.png");
+    background-repeat: no-repeat;
 }
 .top__container {
     max-width: 972px;
@@ -49,7 +50,6 @@
         }
     }
     .top__icon {
-        border: 1px solid green;
         width: 17px;
         height: 10px;
     }

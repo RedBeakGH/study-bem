@@ -1,5 +1,8 @@
 @import "nullstyle.scss";
 @import "top.scss";
+@import "title.scss";
+@import "menu.scss";
+@import "about.scss";
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .top {
@@ -19,37 +22,42 @@
     }
     &__icon {
         margin: 0 auto;
+        padding-bottom: 100px;
     }
 }
 
 .about {
+    &__container {
+        margin: 0 auto;
+    }
+    &__menu {
+        margin: 0 auto;
+    }
+    .menu {
+        margin: 22px auto 0 auto;
+    }
+    &__header {
+        margin: 154px 0 0 0;
+    }
+    &__title {
+        margin: 0 auto;
+    }
+    &__row {
+        margin: 70px auto 0 auto;
+    }
 }
-.about__container {
-}
+
 .about__menu {
 }
-.menu {
-}
+
 .about__header {
 }
 .about__title {
 }
-.title {
-}
-.about__text {
-}
-.about__row {
-}
-.about__column {
-}
+
 .item-about {
 }
-.item-about__icon {
-}
-.item-about__title {
-}
-.item-about__text {
-}
+
 .portfolio {
 }
 .portfolio__container {
